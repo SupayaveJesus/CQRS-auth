@@ -1,0 +1,86 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# 🧪 Entorno virtual
+# =========================
+my_env/
+venv/
+env/
+ENV/
+
+# =========================
+# 🔐 Variables de entorno
+# =========================
+.env
+*.env
+
+# =========================
+# 🗄️ Bases de datos
+# =========================
+*.sqlite3
+db.sqlite3
+read_db.sqlite3
+write_db.sqlite3
+
+# =========================
+# 📦 Archivos de migración (IMPORTANTE)
+# =========================
+# ✔️ En equipo: NO borrar migraciones
+# ❌ Solo ignorar cache
+**/migrations/__pycache__/
+
+# =========================
+# 📁 Logs
+# =========================
+*.log
+
+# =========================
+# ⚙️ Django
+# =========================
+staticfiles/
+media/
+
+# =========================
+# 🔧 Archivos temporales
+# =========================
+*.swp
+*.swo
+*~
+
+# =========================
+# 🖥️ IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🧾 Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 📊 Coverage / testing
+# =========================
+htmlcov/
+.coverage
+.pytest_cache/
+
+# =========================
+# 📦 Node (por si integras frontend)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# 🔑 Secrets (extra seguridad)
+# =========================
+*.pem
+*.key
